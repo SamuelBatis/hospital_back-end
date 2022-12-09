@@ -1,0 +1,18 @@
+server:
+  error:
+    include-message: always
+    include-blinding-errors: always
+
+spring:
+  datasource:
+    password: Wrr@873400
+    url: jdbc:mysql://localhost:3306/hospital
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
